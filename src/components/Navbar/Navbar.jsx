@@ -6,14 +6,15 @@ export default function Navbar() {
     <div className='navbar'>
         <img src={logo} alt="" className='logo'/>
 
-        <div className='search-box'>
-            <input type="text" placeholder='Search'/>
-        </div>
+        
 
         <ul>
             <li>Cart</li>
             <li>Profile</li>
         </ul>
+        <div className='search-box'>
+            <input type="text" placeholder='Search'/>
+        </div>
 
     </div>
   )
