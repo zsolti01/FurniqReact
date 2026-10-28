@@ -1,14 +1,11 @@
-import '../src/styles/App.css'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
     <div>
-      <header>
-        <h1>Furniq</h1>
-        <p>Designed for Living</p>
-      </header>
+      <Navbar />
     </div>
     </>
   )
