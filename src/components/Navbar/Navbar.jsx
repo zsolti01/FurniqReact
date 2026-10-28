@@ -1,9 +1,20 @@
 import './Navbar.css'
+import logo from '../../assets/img/Logos/logo3.png'
 
 export default function Navbar() {
   return (
-    <div>
-        <h1>Navbar</h1>
+    <div className='navbar'>
+        <img src={logo} alt="" className='logo'/>
+
+        <div className='search-box'>
+            <input type="text" placeholder='Search'/>
+        </div>
+
+        <ul>
+            <li>Cart</li>
+            <li>Profile</li>
+        </ul>
+
     </div>
   )
 }
