@@ -1,5 +1,6 @@
 import './Navbar.css'
 import logoNavbar from '../../assets/img/Logos/logo3_Navbar.png'
+import searchIcon from '../../assets/img/Navbar/search.png'
 
 export default function Navbar() {
   return (
@@ -7,7 +8,8 @@ export default function Navbar() {
         <img src={logoNavbar} alt="Furniq Logo" className='logo'/>
 
         <div className='search-box'>
-            <input type="text" placeholder='What are you looking for?'/>
+          <img src={searchIcon} alt="Search icon" className='search-icon'/>
+          <input type="text" placeholder='What are you looking for?'/>
         </div>
 
         <ul>
