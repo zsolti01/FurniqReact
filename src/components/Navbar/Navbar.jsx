@@ -7,7 +7,7 @@ export default function Navbar() {
         <img src={logoNavbar} alt="Furniq Logo" className='logo'/>
 
         <div className='search-box'>
-            <input type="text" placeholder='Search'/>
+            <input type="text" placeholder='What are you looking for?'/>
         </div>
 
         <ul>
