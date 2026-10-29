@@ -5,6 +5,7 @@
     justify-content: space-between;
     background: #ecdaca;
     padding: 15px 7%;
+    position: relative;
 }
 
 .logo{
@@ -12,15 +13,22 @@
     cursor: pointer;
 }
 
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 ul{
-    flex: 1;
     list-style: none;
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 ul li{
     display: inline-block;
-    margin: 10px 20px;
+    margin: 10px 0 10px 40px;
     font-size: 21px;
     cursor: pointer;
 }
