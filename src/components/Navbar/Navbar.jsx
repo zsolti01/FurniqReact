@@ -1,10 +1,10 @@
 import './Navbar.css'
-import logo from '../../assets/img/Logos/logo3.png'
+import logoNavbar from '../../assets/img/Logos/logo3_Navbar.png'
 
 export default function Navbar() {
   return (
     <div className='navbar'>
-        <img src={logo} alt="Furniq Logo" className='logo'/>
+        <img src={logoNavbar} alt="Furniq Logo" className='logo'/>
 
         <ul>
             <li>Cart</li>
