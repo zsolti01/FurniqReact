@@ -4,7 +4,6 @@ html{
 }
 
 .sidebar{
-    color: #544e48;
     border-right: 1px solid black;
     background: #E9DFD2;
     width: 250px;
@@ -17,10 +16,12 @@ html{
     padding-top: 20px;
     padding-bottom: 15px;
     font-size: 25px;
+    color: #49382C;
 }
 
 .categories{
     padding-left: 15px;
+    color: #544e48;
 }
 
 .categories p{
