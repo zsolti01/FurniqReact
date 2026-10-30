@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar/Navbar'
+import Sidebar from './components/Sidebar/Sidebar'
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
     <div>
       <Navbar />
+      <Sidebar />
     </div>
     </>
   )

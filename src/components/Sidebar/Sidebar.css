@@ -1,0 +1,33 @@
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar{
+    color: #544e48;
+    border-right: 1px solid black;
+    background: #E9DFD2;
+    width: 250px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sidebar-header{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.categories{
+    padding-left: 15px;
+}
+
+.categories p{
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.categories p:hover{
+    text-decoration: underline;
+}
