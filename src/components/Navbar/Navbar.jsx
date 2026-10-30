@@ -1,5 +1,5 @@
 import './Navbar.css'
-import logoNavbar from '../../assets/img/Logos/logo3_Navbar.png'
+import logoNavbar from '../../assets/img/Logos/logo3_brown_Navbar.png'
 import searchIcon from '../../assets/img/Navbar/search.png'
 
 export default function Navbar() {
